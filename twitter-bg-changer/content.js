@@ -17,6 +17,10 @@ function applyColor(color) {
     .r-kemksi {
       background-color: ${color} !important;
     }
+    div[aria-label="Home timeline"] > *:first-child > *:first-child {
+      background-color: ${color} !important;
+      opacity: 0.65 !important;
+    }
   `;
 }
 
