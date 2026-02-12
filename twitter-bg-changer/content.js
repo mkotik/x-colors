@@ -14,6 +14,9 @@ function applyColor(color) {
     div[data-testid="primaryColumn"] {
       background-color: ${color} !important;
     }
+    .r-kemksi {
+      background-color: ${color} !important;
+    }
   `;
 }
 
