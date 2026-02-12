@@ -27,6 +27,9 @@ function applyColor(color) {
     div[aria-label="Home timeline"] > *:first-child > *:first-child {
       background-color: ${hexToRgba(color, 0.65)} !important;
     }
+    div[aria-label="Home timeline"] > *:first-child > *:first-child > *:first-child > *:first-child > *:first-child > *:first-child {
+      background-color: ${color} !important;
+    }
   `;
 }
 
